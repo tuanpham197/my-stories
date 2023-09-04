@@ -51,8 +51,9 @@
                 <h1></h1>
             </header>
             <div class="entry-content">
-                <div class="text-slate-600 dark:text-white text-center"><i>Hi, I'm Redowan Delowar—a wandering autodidact with a flair for ones and zeros</i>
-                    <div class="bio-urls"><a href="tags">tags</a>
+                <div class="text-slate-600 dark:text-white text-center text-md"><i>Hi, I'm Redowan Delowar — a wandering autodidact with a flair for ones and zeros</i>
+                    <div class="bio-urls text-base">
+                        <a href="tags">tags</a>
                         <span>•</span>
                         <a href="search">search</a>
                         <span>•</span>
@@ -65,33 +66,33 @@
             </footer>
         </article>
         <article class="post-entry bg-b-light-entry dark:bg-b-dark-entry mt-4 p-4">
-            <header class="entry-header">
-                <h2 class="text-slate-700 dark:text-white">Escaping the template pattern hellscape in Python</h2>
+            <header class="entry-header mb-4">
+                <h2 class="text-slate-700 dark:text-white text-xl font-bold">Escaping the template pattern hellscape in Python</h2>
             </header>
             <div class="entry-content">
-                <p class="text-slate-600 dark:text-white">Over the years, I’ve used the template pattern across multiple OO languages with varying degrees of
+                <p class="text-slate-600 dark:text-t-dark text-base">Over the years, I’ve used the template pattern across multiple OO languages with varying degrees of
                     success. It was one of the first patterns I learned in the primordial hours of my software
                     engineering career, and for some reason, it just feels like the natural way to tackle many
                     real-world code-sharing problems. Yet, even before I jumped on board with the composition over
                     inheritance camp, I couldn’t help but notice how using this particular inheritance technique spawns
                     all sorts of design and maintenance headaches as the codebase starts to grow....</p>
             </div>
-            <footer class="entry-footer"><span title='2023-07-01 00:00:00 +0000 UTC'>July 1, 2023</span></footer><a
+            <footer class="entry-footer text-slate-700 mt-4 dark:text-t-dark text-sm"><span title='2023-07-01 00:00:00 +0000 UTC'>July 1, 2023</span></footer><a
                 class="entry-link" aria-label="post link to Escaping the template pattern hellscape in Python"
                 href="https://rednafi.com/python/escape_template_pattern" /></a>
         </article>
         <article class="post-entry bg-b-light-entry dark:bg-b-dark-entry mt-4 p-4">
-            <header class="entry-header">
-                <h2 class="text-slate-700 dark:text-white">Limit goroutines with buffered channels</h2>
+            <header class="entry-header mb-4">
+                <h2 class="text-slate-700 dark:text-white text-xl font-bold">Limit goroutines with buffered channels</h2>
             </header>
             <div class="entry-content">
-                <p class="text-slate-600 dark:text-white">I was cobbling together a long-running Go script to send webhook messages to a system when some
+                <p class="text-slate-600 dark:text-t-dark text-base">I was cobbling together a long-running Go script to send webhook messages to a system when some
                     events occur. The initial script would continuously poll a Kafka topic for events and spawn new
                     goroutines to make HTTP requests to the destination. This had two problems:
                     It could create unlimited goroutines if many events arrived quickly It might overload the
                     destination system by making many concurrent requests In Python, I’d use just asyncio....</p>
             </div>
-            <footer class="entry-footer"><span title='2023-08-23 00:00:00 +0000 UTC'>August 23, 2023</span></footer><a
+            <footer class="entry-footer text-slate-700 mt-4 dark:text-t-dark text-sm"><span title='2023-08-23 00:00:00 +0000 UTC'>August 23, 2023</span></footer><a
                 class="entry-link" aria-label="post link to Limit goroutines with buffered channels"
                 href="https://rednafi.com/go/limit_goroutines_with_buffered_channels" /></a>
         </article>
@@ -101,8 +102,8 @@
             <nav class="pagination"><a class="next" href="https://rednafi.com/page/2" />Next&nbsp;&nbsp;»</a></nav>
         </footer>
     </main>
-    <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor">
+    <a href="#top" class="top rounded-full flex item-center justify-center" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+        <svg xmlns="http://www.w3.org/2000/svg" width="15" viewBox="0 0 12 6" fill="currentcolor">
             <path d="M12 6H0l6-6z" />
         </svg></a>
 
